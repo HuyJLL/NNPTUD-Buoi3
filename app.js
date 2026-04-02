@@ -242,7 +242,6 @@ function exportCSV() {
     link.setAttribute("href", url);
     link.setAttribute("download", "products_current_view.csv");
     link.style.visibility = 'hidden';
-    
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
